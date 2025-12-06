@@ -1,5 +1,5 @@
 #!/bin/bash
-gcc ~/bin/C_code_formatter.c -o koala
+gcc ~/.bin/C_code_formatter.c -o koala
 ./koala $1 > tmp
 mv tmp $1
 rm koala
